@@ -122,9 +122,72 @@ img{
 }
 
 i{
-  color: #666;
+
+  color: rgba(0,0,0,.8);
+ 
 }
 
+i:hover{
+   color: rgba(0,0,0,0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.main-menu{
+  text-align: center;
+  font-size: 30px;
+  margin: 150px;
+}
+
+.navigation ul{
+  list-style-type: none;
+}
+
+.navigation ul {
+    margin: 12px;
+  padding: 12px;
+}
+
+.navigation ul li a{
+  color: #000;
+
+}
+
+#about{
+  color:#f944a3 ;
+  text-align: left;
+}
+
+#mailchimp {
+  background: #f8f8f8;
+  color: #b3cc06;
+  padding: 20px 15px;
+}
+  #mailchimp input {
+     border: medium none;
+    color: gray;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 300px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+  }
+    #mailchimp input.email { background: #fff }
+    #mailchimp input.name { background: #fff}
+    #mailchimp input[type="submit"] {
+      background: #f944a3;
+      color: #222;;
+      cursor: pointer;
+      font-size: 15px;
+      width: 35%;
+      padding: 8px 0;
+
+    }
+      #mailchimp input[type="submit"]:hover { color: #F2C94C }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
